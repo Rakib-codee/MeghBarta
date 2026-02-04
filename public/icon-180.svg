@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bgApple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with iOS rounded corners -->
+  <rect width="180" height="180" rx="40" fill="url(#bgApple)"/>
+  
+  <!-- Simplified cloud for smaller size -->
+  <g transform="translate(45, 55)">
+    <!-- Main cloud -->
+    <ellipse cx="45" cy="35" rx="30" ry="16" fill="white" opacity="0.9"/>
+    <circle cx="25" cy="30" r="15" fill="white" opacity="0.9"/>
+    <circle cx="65" cy="30" r="13" fill="white" opacity="0.9"/>
+    <circle cx="45" cy="22" r="18" fill="white" opacity="0.9"/>
+    
+    <!-- Simple sun -->
+    <circle cx="45" cy="30" r="6" fill="#FFD700" opacity="0.8"/>
+    
+    <!-- Rain -->
+    <ellipse cx="32" cy="48" rx="1.5" ry="5" fill="#4A90E2" opacity="0.7"/>
+    <ellipse cx="45" cy="52" rx="1.5" ry="5" fill="#4A90E2" opacity="0.7"/>
+    <ellipse cx="58" cy="48" rx="1.5" ry="5" fill="#4A90E2" opacity="0.7"/>
+  </g>
+  
+  <!-- Compact branding -->
+  <text x="90" y="125" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" opacity="0.8">
+    মেঘবার্তা
+  </text>
+</svg>

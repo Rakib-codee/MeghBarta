@@ -9,8 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.36.1",
+    "@tanstack/react-query-devtools": "^4.36.1",
+    "framer-motion": "^12.31.0",
+    "lucide-react": "^0.563.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-circular-progressbar": "^2.2.0",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.7.0",
+    "web-vitals": "^5.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
