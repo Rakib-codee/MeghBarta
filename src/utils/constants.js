@@ -1,7 +1,12 @@
 // Constants for the weather application
 
 export const API_BASE = "https://api.weatherapi.com/v1";
-export const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
+export const API_KEY = import.meta.env.VITE_WEATHER_API_KEY || "";
+
+// Debug: Log if API key is missing (only in development)
+if (!import.meta.env.VITE_WEATHER_API_KEY) {
+  console.warn("⚠️ VITE_WEATHER_API_KEY is not set! Please add it to your environment variables.");
+}
 
 export const fallbackLocation = {
   label: "Bengaluru",
