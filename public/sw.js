@@ -1,14 +1,13 @@
 // Service Worker for MeghBarta Weather App
-const CACHE_NAME = 'meghbarta-v1';
+const CACHE_NAME = 'meghbarta-v2';
 const OFFLINE_URL = '/offline.html';
 
 // Files to cache for offline functionality
+// Only cache files that exist in production build
 const STATIC_CACHE_URLS = [
   '/',
-  '/src/App.jsx',
-  '/src/styles.css',
-  '/src/main.jsx',
-  '/offline.html'
+  '/offline.html',
+  '/manifest.json'
 ];
 
 // API cache configuration
