@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)](https://github.com/)
 
-[🚀 Live Demo](https://meghbarta-weather.vercel.app) • [📱 Install PWA](https://meghbarta-weather.vercel.app) • [🐛 Report Bug](https://github.com/rakib/meghbarta/issues) • [✨ Request Feature](https://github.com/rakib/meghbarta/issues)
+[🚀 Live Demo](megh-barta.vercel.app) • [📱 Install PWA](https://meghbarta-weather.vercel.app) • [🐛 Report Bug](https://github.com/rakib/meghbarta/issues) • [✨ Request Feature](https://github.com/rakib/meghbarta/issues)
 
 </div>
 
